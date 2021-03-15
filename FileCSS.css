@@ -32,8 +32,8 @@ body{
 }
 
 .questions{
-    margin-right:20%;
-    margin-left:20%;
+    margin-right:5%;
+    margin-left:5%;
     text-align: center;
 }
 .btnOp{
@@ -47,9 +47,10 @@ body{
 
 .border{
     border:3px solid #a5af4c;
+    font-family: 'Chiller';
+    font-size: 35px;
     
 }
-
 
 
 /* for the slider*/
