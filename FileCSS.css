@@ -27,28 +27,96 @@ body{
 }
       
 
-
 .questions{
     margin-right:5%;
     margin-left:5%;
     text-align: center;
 }
-.btnOp{
-    background-color: #a5af4c; 
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    cursor: pointer;
-    font-size: 16px;
+
+
+.btnOp {
+  position: relative;
+  background-color:#a5af4c;
+  border: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition-duration: 0.1s; /* Safari 0.4*/
+  transition-duration: 0.1s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
 }
 
+.btnOp:after {
+  content: "";
+  background: #a5af4c;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.1s
+}
+
+.btnOp:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+
 .border{
-    border:3px solid #a5af4c;
-    font-family: 'Chiller';
+    border:10px solid #a5af4c;
+    font-family: '18thCentury';
     font-size: 35px;
+    border-radius: 25px;
+    border-style: outset;
     
 }
 
+.wBtn {
+  border-radius: 4px;
+  background-color: #a5af4c;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 225px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.wBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.wBtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.wBtn:hover span {
+  padding-right: 25px;
+}
+
+.wBtn:hover span:after {
+  opacity: 1;
+ 
+}
 
 /* for the slider*/
 
