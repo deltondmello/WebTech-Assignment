@@ -1,5 +1,6 @@
-/*  CSS comment */
+/*  CSS file for styling */
 
+/*default body colour*/
 body{
     padding: 25px;
     background-color: white;
@@ -7,13 +8,14 @@ body{
     font-size: 25px;
 }
   
+/*dark mode enabled */
 .darkmode {
     
     background-color: black;
     color: white;
   }
 
-      
+/*positining for dark button*/
 .darkBtn{
     float : right;
     cursor: pointer;
@@ -26,7 +28,7 @@ body{
 
 }
       
-
+/*sets the place for the questions container to be in the center*/
 .questions{
     margin-right:5%;
     margin-left:5%;
@@ -69,7 +71,7 @@ body{
   transition: 0s
 }
 
-
+/*sets the container for scenario */
 .border{
     border:10px solid #a5af4c;
     font-family: '18thCentury';
@@ -79,6 +81,7 @@ body{
     
 }
 
+/*CSS for welcome button for hovering */
 .wBtn {
   border-radius: 4px;
   background-color: #a5af4c;

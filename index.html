@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<!--All the html pages use a similar layout and styling for consistency -->
+
 <!--sets the language for the broswer-->
 <html lang="en">
    
@@ -7,6 +9,8 @@
     <title>Welcome Page</title>
   
 </head>
+
+<!--link for the css file for styling the html pages-->
 <link rel="Stylesheet" type="text/css" href= "FileCSS.css">
 
     <body>
@@ -21,18 +25,19 @@
             
         </div>
         
-        <!--used as text to indicate toggle button-->
+        <!--used as text to indicate toggle button its editied with the help of javascript-->
         <h6 id="darkBtnStyle">Dark-Mode</h6> 
 
 
     <div class = "txt questions">
 
+        <!--border class used to make sure all the scenario is in a container -->
         <p class = "border">Welcome to Adevnture Game
         </p>
 
     
         <br><br>
-           
+           <!--Buttons used for forward navigation, options to scenario text-->
         <button class="wBtn" onclick="window.location='pg0.html'"><span> Begin Game</span> </button>
         <br><br>
 
@@ -42,5 +47,7 @@
 </div>
 
     </body>
+
+    <!--Javascript linked to all html pages for functionality-->
     <script src="main.js"></script>    
 </html>
